@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/base.css" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bd03cec16f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Jquery - selectores</title>
+  </head>
+  <body class="wrapped">
+    <header>
+      <div class="container navbar">
+        <h1 class="navbar-title"><a href="./">After jQuery</a></h1>
+        <nav class="navbar-links">
+          <a href="./pages/products.html">Inventario</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container-grid form">
+
+    <h2 class="col-full form-title">Ingresa un nuevo articulo</h2>
+
+    <form class="col-mid flex-col form-input">
+        <label>Nombre</label>
+        <input type="text" class="form-input_entry" id="name"/>
+        <label>categoria</label>
+        <input type="text" class="form-input_entry" id="category"/>
+        <label>Precio</label>
+        <input type="number" class="form-input_entry" id="price"/>
+        <label>Imagen</label>
+        <input type="text" class="form-input_entry" id="img"/>
+        <div id="btn-container">
+        <input type="button" value="Cargar" id="submit" class="form-btn"/>
+        <input type="reset" value="Borrar" id="delete"class="form-btn"/>
+        </div>
+    </form>
+
+    <div class="col-four card">
+        <div class="card-img"></div>
+        <h3 class="card-name">Nombre producto</h3>
+        <h3 class="card-price">Precio</h3>
+        <p class="card-id">Id xxxxxxx</p>
+        <p class="card-category">Categoria</p>
+    </div>
+
+    </section>
+
+    <footer class="footer"> 
+        <p>Desarrollado para camada 18040 - Javascript CoderHouse</p>
+        <p>Julio 2021</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/ejemplos/ejemplos.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+  </body>
+</html>

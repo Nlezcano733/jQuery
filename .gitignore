@@ -1,0 +1,11 @@
+#node
+node_modules
+package-lock.json
+
+#mapeo css
+assets/*.css.map
+assets/scss
+settings
+
+#archivos ayuda
+js/ejemplos

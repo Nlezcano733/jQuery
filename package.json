@@ -1,0 +1,17 @@
+{
+  "name": "jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server index.html",
+    "build-framework": "sass --watch ./settings/main.scss ./assets/base.css",
+    "build-css": "sass --watch ./assets/scss/main.scss ./assets/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1"
+  }
+}
