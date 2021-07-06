@@ -1,5 +1,5 @@
 # Desarrollo de jQuery y ordenamiento de archivos
-###Camara 18040 js - CoderHouse
+### Camara 18040 js - CoderHouse
 ------------
 El proyecto cuenta con:
 - Archivos base css
@@ -10,4 +10,4 @@ El proyecto cuenta con:
 
 ------------
 
-*El archvio cuenta con modulos pero que no serán utilizados en clase*
+*El archivo cuenta con modulos pero que no serán utilizados en clase*
