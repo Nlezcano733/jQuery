@@ -1,19 +1,19 @@
-const showData = () =>{
-    products.forEach(item => console.log(item.name))
+// ==================== STORAGE ===================== //
+const toLocalStorage = (info, key) => {
+    let infoString = JSON.stringify(info);
+    localStorage.setItem(key, infoString);
 }
-showData();
 
-// ========================================================== //
-
-const checkInput = () => {
-    let inputProducts = getLocalStorage ('products'); 
-    makeCards(inputProducts, '.products');
+const toSessionStorage = (info, key) => {
+    let infoString = JSON.stringify(info);
+    sessionStorage.setItem(key, infoString);
 }
 
 const getLocalStorage = (key) => {
     let infoString = localStorage.getItem(key)
     return JSON.parse(infoString);
 }
+// ==================== DOM  ===================== //
 
 const makeCards = (prods, container) =>{
     prods.forEach(item => showCard(item,container))
@@ -33,6 +33,11 @@ const showCard = (object, container) =>{
     `)
 }
 
+const modifyCard = (prod) => {
+    $('.card-img img').attr('src', prod.img);
+    $('.card-name').text(prod.name);
+    $('.card-price').text(prod.price);
+    $('.card-id').text(prod.id);
+    $('.card-category').text(prod.category);
+}
 
-makeCards(products, '.products');
-checkInput();
