@@ -15,6 +15,24 @@ const getLocalStorage = (key) => {
 }
 // ==================== DOM  ===================== //
 
+// $('#menu-links').click(()=>{
+//     $('.navbar-links').slideDown();
+// })
+
+// $('#menu-close').click(()=>{
+//     $('.navbar-links').slideUp();
+// })
+
+// $('#menu-links').click(()=>{
+//     $('.navbar-links').animate({right: '0px'}, 'slow');
+// })
+
+// $('#menu-close').click(()=>{
+//     $('.navbar-links').animate({right: '-240px'}, 'slow');
+// })
+
+// =============================================== //
+
 const makeCards = (prods, container) =>{
     prods.forEach(item => showCard(item,container))
 }

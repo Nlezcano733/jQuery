@@ -1,8 +1,9 @@
-const checkInput = () => {
-    let inputProducts = getLocalStorage ('products'); 
-    makeCards(inputProducts, '.products');
-}
-
 makeCards(products, '.products');
 checkInput();
-showData();
+
+// createFilters('smartphone');
+// createFilters('video games');
+
+// $('#all-products').click(()=>{ scrollBody('.products') })
+// $('#smartphones').click(()=>{ scrollBody('.filter-smartphone') })
+// $('#games').click(()=>{ scrollBody('.filter-games') })

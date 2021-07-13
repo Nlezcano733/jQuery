@@ -35,4 +35,4 @@ class Article {
 
 // ======================================================= //
 
-submitForm();
+$('#submit').click(fillForm)

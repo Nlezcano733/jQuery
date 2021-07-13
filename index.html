@@ -13,10 +13,13 @@
     <title>Jquery - selectores</title>
   </head>
   <body class="wrapped">
+  
     <header>
       <div class="container navbar">
         <h1 class="navbar-title"><a href="./">After jQuery</a></h1>
+        <i class="fas fa-bars navbar-menu" id="menu-links"></i>
         <nav class="navbar-links">
+          <i class="fas fa-times" id="menu-close"></i>
           <a href="./pages/products.html">Inventario</a>
         </nav>
       </div>
@@ -37,6 +40,8 @@
         <div id="btn-container">
         <input type="button" value="Cargar" id="submit" class="form-btn"/>
         <input type="reset" value="Borrar" id="delete"class="form-btn"/>
+        <input type="button" value="Mostrar" id="show"class="form-btn handle-card"/>
+        <input type="button" value="Ocultar" id="hide"class="form-btn handle-card"/>
         </div>
     </form>
 
