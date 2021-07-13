@@ -23,6 +23,7 @@ const fillForm = () =>{
 
         addToStorage(newProduct, 'products');
         makeCards([newProduct], '.form');
+        // showButtons();
     }
 }
 
