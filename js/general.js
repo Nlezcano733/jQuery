@@ -23,13 +23,13 @@ const getLocalStorage = (key) => {
 //     $('.navbar-links').slideUp();
 // })
 
-// $('#menu-links').click(()=>{
-//     $('.navbar-links').animate({right: '0px'}, 'slow');
-// })
+$('#menu-links').click(()=>{
+    $('.navbar-links').animate( {   right: '0px'  }, 'slow');
+})
 
-// $('#menu-close').click(()=>{
-//     $('.navbar-links').animate({right: '-240px'}, 'slow');
-// })
+$('#menu-close').click(()=>{
+    $('.navbar-links').animate({right: '-240px'}, 'slow');
+})
 
 // =============================================== //
 

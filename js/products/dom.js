@@ -9,8 +9,7 @@ const createSection = (className, title) => {
 const scrollBody = (ubication) => {
     const NAVBAR_HEIGHT = 60;
 
-    $('html, body').animate({
-        scrollTop: $(ubication).offset().top - NAVBAR_HEIGHT
-    }, 1000);
+    $('html, body').animate(    
+    { scrollTop: $(ubication).offset().top - NAVBAR_HEIGHT}, 1000);
     
 }

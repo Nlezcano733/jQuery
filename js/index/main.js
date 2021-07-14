@@ -35,9 +35,13 @@ class Article {
 
 // ======================================================= //
 
-$('#submit').click(fillForm)
 
-$('#delete').click(()=>{
-    $('.handle-card').hide();
-    $('.card').hide();
+$(()=>{
+    $('#submit').click(fillForm);
+
+    $('#delete').click(()=>{
+        $('.handle-card').hide();
+        $('.card').hide();
+    })
 })
+
